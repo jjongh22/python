@@ -17,11 +17,11 @@ def my_while(input_nm): #while문을 사용하는 함수 정의
 def my_lambda(input_nm): #lambda문을 사용하는 함수 정의 
     return list(map(lambda x:x**3,input_nm)) #input_nm의 각 요소를 세제곱한 후 list로 만들어준다.
         
-# 또 다른 map, lambda 이용
-# my_lambda=input('숫자를 입력하시오(빈칸으로 구분).:').split() #입력받은 숫자를 my_lambda list로 만듦
-# my_lambda=map(int, my_lambda) #만들어진 list의 str로 되어있는 각 요소들을 계산해주기 위해서 int로 변환. int(my_lambda)는  my_lambda가 이미 위 수행과정에서 list가 되었는데 list는 int로 변환해줄 수 없기 때문에 반복연산자인 map을 사용하여 각 요소를 int로 변경해주었다. 
-# ml=map(lambda x: x**3, my_lambda) #list의 각 요소들을 세제곱해주기 위해서 반복연산자인 map사용
-# print(list(ml)) #위의 각 요소들을 list로 묶어 출력함
+## 또 다른 map, lambda 이용
+# my_lambda=input('숫자를 입력하시오(빈칸으로 구분).:').split() ##입력받은 숫자를 my_lambda list로 만듦
+# my_lambda=map(int, my_lambda) ##만들어진 list의 str로 되어있는 각 요소들을 계산해주기 위해서 int로 변환. int(my_lambda)는  my_lambda가 이미 위 수행과정에서 list가 되었는데 list는 int로 변환해줄 수 없기 때문에 반복연산자인 map을 사용하여 각 요소를 int로 변경해주었다. 
+# ml=map(lambda x: x**3, my_lambda) ##list의 각 요소들을 세제곱해주기 위해서 반복연산자인 map사용
+# print(list(ml)) ##위의 각 요소들을 list로 묶어 출력함
 
 def result(input_nm): #result 함수생성
     print('input:',input_nm) # input_nm출력
