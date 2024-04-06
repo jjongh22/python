@@ -1,4 +1,4 @@
-# 5주차과제_202235975_서정희
+#iterable
 
 def my_for(input_nm):  #for문을 사용하는 함수 정의
     result=[]          #빈 list 생성
